@@ -223,3 +223,4 @@ public class MapActivity extends AppCompatActivity implements LocationSource, AM
         mapView.onDestroy();
     }
 }
+//提交测试 whitea
