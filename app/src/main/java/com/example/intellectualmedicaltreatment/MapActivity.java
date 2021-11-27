@@ -32,7 +32,7 @@ public class MapActivity extends AppCompatActivity implements LocationSource, AM
     private Button button; //发送按钮
     private Socket socket; //通信用的socket
     private OutputStream outputStream; //用于通信
-
+  private  int a;
     private AMapLocationClient mLocationClient = null;//定位发起端
     private AMapLocationClientOption mLocationOption = null;//定位参数
     private OnLocationChangedListener mListener = null;//定位监听器
