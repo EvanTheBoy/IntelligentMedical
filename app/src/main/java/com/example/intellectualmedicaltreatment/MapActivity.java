@@ -39,6 +39,7 @@ public class MapActivity extends AppCompatActivity implements LocationSource, AM
     //标识，用于判断是否只显示一次定位信息和用户重新定位
     private boolean isFirstLoc = true;
 
+    //a
     //定位信息
     private StringBuffer buffer;
 
